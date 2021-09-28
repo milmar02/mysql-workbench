@@ -1,6 +1,6 @@
 FROM linuxserver/mysql-workbench
 
-apt-get install -y nano vi
+RUN apt-get install -y nano vi
 
 # set version label
 #RUN chgrp -R 0 /var/run/s6/etc/cont-init.d/ && chmod -R g+rwX /var/run/s6/etc/cont-init.d/
