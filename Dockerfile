@@ -1,6 +1,6 @@
 FROM linuxserver/mysql-workbench
 
-RUN apt-get update && apt-get upgrade
+RUN apt-get -y update && apt-get -y upgrade
 RUN apt-get install -y nano vi
 
 # set version label
